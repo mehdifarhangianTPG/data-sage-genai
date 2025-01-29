@@ -23,13 +23,13 @@ from functools import lru_cache
 
 # Configuration variables
 # Change your PROJECT_ID value here
-PROJECT_ID = os.getenv('GCP_PROJECT_ID', 'genai-demo-2024')
+PROJECT_ID = os.getenv('GCP_PROJECT_ID', 'tpgt-adobe-analytics-bq-import')
 # Change your GCP REGION LOCATION value here
-LOCATION = os.getenv('GCP_LOCATION', 'us-central1')
+LOCATION = os.getenv('GCP_LOCATION', 'australia-southeast1')
 # Change your  Google Cloud Storage Bucket Name   here
-BUCKET_NAME = os.getenv('GCP_BUCKET_NAME', 'gcp-newsletter-rag-vertex2')
+BUCKET_NAME = os.getenv('GCP_BUCKET_NAME', ' tem-mehdi-farhangian2')
 # Change the INDEX_ENDPOINT_NAME by the   Vector Search endpoint ID
-INDEX_ENDPOINT_NAME = os.getenv('GCP_INDEX_ENDPOINT_NAME', '8619577425484840960')
+INDEX_ENDPOINT_NAME = os.getenv('GCP_INDEX_ENDPOINT_NAME', '7027233899814060032')
 
 app = Flask(__name__)
 CORS(app)
